@@ -11,13 +11,12 @@
   | https://github.com/joonasmkauppinen/pat-project-frontend |
   +-------------------------------------------------------- */
 
-//const API_URL = 'http://127.0.0.1:3114/';   // local
-const API_URL = 'https://tucloud.fi/pat/';   // public-server
+const API_URL = 'https://API_URL_HERE'; // Change this to be your Backend (API) server.
 
 const BASE_ADDR = '/pat-project-frontend/'; // if in root folder, set this to '/'
 
 // Display all the debug messages in the console
-const DEBUG_MODE = true;
+const DEBUG_MODE = false;
 
 // Delay redirection for 2 seconds (only works in DEBUG_MODE
 const REDIRECT_DELAY = false;
