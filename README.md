@@ -2,7 +2,7 @@
 Frontend repsitory for PAT.
 
 ### Project
-PAT. is the product of the first major year's project from 'Basic Concepts of Web Technology'.
+PAT. is the product of the first major year's project from __'Basic Concepts of Web Technology'__ course.
 
 ### Goal
 The goal of the project was to make a mobile first __Media Sharing Web Application__ where users can upload different types of media, rate other users posts and follow other users. We were not allowed to use any frameworks or libraries, so this project is done using pure __HTML__, __CSS__ and __JavaScript__.
@@ -14,7 +14,7 @@ The goal of the project was to make a mobile first __Media Sharing Web Applicati
 (both links should have the same version of the app)
 
 ### Backend
-Code for backend can be found form [backend repository.](https://github.com/joonasmkauppinen/pat-project-backend)
+Code and more info for backend can be found form [backend repository.](https://github.com/joonasmkauppinen/pat-project-backend)
 
 ## Usage
 1. Clone or download this repository ```git clone https://github.com/joonasmkauppinen/pat-project-frontend.git```
@@ -23,8 +23,8 @@ Code for backend can be found form [backend repository.](https://github.com/joon
    * Check ```BASE_ADDR``` and modify it if necessary
 3. Serve the files over some web server or run using localhost
 
-## Requirements
-* Frontend needs a backend server running!
+### NOTICE
+* Frontend needs a backend server running! Otherwise you can only view the welcome page.
 
 ## Screenshots
 
