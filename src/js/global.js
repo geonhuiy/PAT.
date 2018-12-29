@@ -12,22 +12,34 @@
   +-------------------------------------------------------- */
 
 
-const API_URL = 'https://tucloud.fi/pat/';   // public-server
-const BASE_ADDR = '/pat-project-frontend/'; // if in root folder, set this to '/'
+/*
+________________________________________________________________________________________________________
+
+       _____ _    _          _   _  _____ ______   _______ _    _ ______  _____ ______   
+      / ____| |  | |   /\   | \ | |/ ____|  ____| |__   __| |  | |  ____|/ ____|  ____|_ 
+     | |    | |__| |  /  \  |  \| | |  __| |__       | |  | |__| | |__  | (___ | |__  (_)
+     | |    |  __  | / /\ \ | . ` | | |_ |  __|      | |  |  __  |  __|  \___ \|  __|    
+     | |____| |  | |/ ____ \| |\  | |__| | |____     | |  | |  | | |____ ____) | |____ _ 
+      \_____|_|  |_/_/    \_\_| \_|\_____|______|    |_|  |_|  |_|______|_____/|______(_)             */
 
 
-//const API_URL = 'https://API_URL_HERE'; // Change this to be your Backend (API) server.
-//const BASE_ADDR = '/pat-project-frontend/'; // if in root folder, set this to '/'
+        const API_URL = 'https://backend-url/';   // public-server HTTPS address (or https address)
+        const BASE_ADDR = '/pat-project-frontend/'; // if running in server root folder (path), set this to '/'
 
-// Display all the debug messages in the console
-const DEBUG_MODE = false;
+        // Display all the debug messages in the console
+        const DEBUG_MODE = false;
 
-// Delay redirection for 2 seconds (only works in DEBUG_MODE
-const REDIRECT_DELAY = false;
+        // Delay redirection for 2 seconds (only works in DEBUG_MODE
+        const REDIRECT_DELAY = false;
 
-/* Redirect automatically from wrong page to right page if SESSION state is wrong. 
-Plase note: Does not make effect if DEBUG_MODE = false */
-const AUTO_REDIRECT = true;
+        /* Redirect automatically from wrong page to right page if SESSION state is wrong. 
+        Plase note: Does not make effect if DEBUG_MODE = false */
+        const AUTO_REDIRECT = true;
+
+/*______________________________________________________________________________________________________*/
+
+
+
 
 let sessionExists = false;
 let sessionID = '';
